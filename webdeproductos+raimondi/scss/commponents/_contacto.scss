@@ -1,0 +1,3 @@
+.navEdit{font-size: $fonts;};
+.midtext{font-size: nth($size , 2 );};
+.cardSize{background-color: map-get($bg-card , bg-delacard );}
