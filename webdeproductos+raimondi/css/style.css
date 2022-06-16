@@ -154,6 +154,34 @@ p {
   position: fixed;
 }
 
+.bodySobre {
+  background: #bc1c89;
+  background: -webkit-linear-gradient(0deg, #bc1c89 0%, #71cade 100%);
+  background: linear-gradient(0deg, #bc1c89 0%, #71cade 100%);
+}
+
+.navcolor {
+  background: #bc1c89;
+  background: -webkit-linear-gradient(0deg, #bc1c89 0%, #71cade 100%);
+  background: linear-gradient(0deg, #bc1c89 0%, #71cade 100%);
+}
+
+.cardcolor {
+  background: #23f2ba;
+  background: -webkit-linear-gradient(0deg, #23f2ba 0%, #2564f6 100%);
+  background: linear-gradient(0deg, #23f2ba 0%, #2564f6 100%);
+}
+
+.sizeItem {
+  height: 20%;
+  width: 15%;
+}
+
+.sectionPosition {
+  display: flex;
+  justify-content: center;
+}
+
 .navEdit {
   font-size: 20px;
 }
