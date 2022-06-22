@@ -1,0 +1,69 @@
+.cardflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bgbody {
+  background: linear-gradient(-45deg, #db1b75, #29d3d3, #23a6d5, #2141cf);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.navcolores {
+  background: #474bff;
+  background: -webkit-linear-gradient(0deg, #474bff 0%, #20f844 100%);
+  background: linear-gradient(0deg, #474bff 0%, #48ff85 100%);
+}
+
+.flexmain {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.rowcards {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardcolor {
+  background: #71f4f5;
+  background: -webkit-linear-gradient(0deg, #71f4f5 0%, #630cc8 100%);
+  background: linear-gradient(0deg, #71f4f5 0%, #630cc8 100%);
+}
+
+.sizeimg {
+  height: 35rem;
+  width: 45rem;
+}
+
+.navEdit {
+  font-size: 20px;
+}
+
+.midtext {
+  font-size: 25px;
+}
+
+.cardSize {
+  background-color: rgb(12, 240, 248);
+}
+
+/*# sourceMappingURL=stlye.css.map */
